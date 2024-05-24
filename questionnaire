@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Investment Questionnaire</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .questionnaire {
+            max-width: 600px;
+            margin: auto;
+        }
+        .question {
+            margin-bottom: 20px;
+        }
+        .options {
+            margin-left: 20px;
+        }
+        .options input {
+            margin-right: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="questionnaire">
+        <h1>Investment Questionnaire</h1>
+
+        <div class="question">
+            <p>How comfortable are you with the value of your investments fluctuating over short periods of time?</p>
+            <div class="options">
+                <label><input type="radio" name="comfort_fluctuation" value="Very Conservative"> Very Conservative</label><br>
+                <label><input type="radio" name="comfort_fluctuation" value="Conservative"> Conservative</label><br>
+                <label><input type="radio" name="comfort_fluctuation" value="Moderate"> Moderate</label><br>
+                <label><input type="radio" name="comfort_fluctuation" value="Aggressive"> Aggressive</label><br>
+                <label><input type="radio" name="comfort_fluctuation" value="Very Aggressive"> Very Aggressive</label>
+            </div>
+        </div>
+
+        <div class="question">
+            <p>How many years until you expect to start withdrawing your investments?</p>
+            <div class="options">
+                <label><input type="radio" name="withdrawal_years" value="Very Short-term"> Very Short-term</label><br>
+                <label><input type="radio" name="withdrawal_years" value="Short-term"> Short-term</label><br>
+                <label><input type="radio" name="withdrawal_years" value="Medium-term"> Medium-term</label><br>
+                <label><input type="radio" name="withdrawal_years" value="Long-term"> Long-term</label><br>
+                <label><input type="radio" name="withdrawal_years" value="Very Long-term"> Very Long-term</label>
+            </div>
+        </div>
+
+        <div class="question">
+            <p>What is the primary purpose of your investment?</p>
+            <div class="options">
+                <label><input type="radio" name="investment_purpose" value="Short-term Needs"> Short-term Needs</label><br>
+                <label><input type="radio" name="investment_purpose" value="Debt Reduction"> Debt Reduction</label><br>
+                <label><input type="radio" name="investment_purpose" value="Retirement"> Retirement</label><br>
+                <label><input type="radio" name="investment_purpose" value="Education"> Education</label><br>
+                <label><input type="radio" name="investment_purpose" value="Wealth Growth"> Wealth Growth</label>
+            </div>
+        </div>
+
+        <div class="question">
+            <p>What is your annual income?</p>
+            <div class="options">
+                <label><input type="radio" name="annual_income" value="0 - 27600"> 0 - 27600</label><br>
+                <label><input type="radio" name="annual_income" value="27601 - 45000"> 27601 - 45000</label><br>
+                <label><input type="radio" name="annual_income" value="45001 - 70000"> 45001 - 70000</label><br>
+                <label><input type="radio" name="annual_income" value="70001 - 100000"> 70001 - 100000</label><br>
+                <label><input type="radio" name="annual_income" value="100001 and above"> 100001 and above</label>
+            </div>
+        </div>
+
+        <div class="question">
+            <p>How would you rate your understanding of investing and financial markets?</p>
+            <div class="options">
+                <label><input type="radio" name="understanding" value="Very Poor"> Very Poor</label><br>
+                <label><input type="radio" name="understanding" value="Poor"> Poor</label><br>
+                <label><input type="radio" name="understanding" value="Average"> Average</label><br>
+                <label><input type="radio" name="understanding" value="Good"> Good</label><br>
+                <label><input type="radio" name="understanding" value="Excellent"> Excellent</label>
+            </div>
+        </div>
+
+        <div class="question">
+            <p>How long have you been investing?</p>
+            <div class="options">
+                <label><input type="radio" name="investment_duration" value="Less than 1 year"> Less than 1 year</label><br>
+                <label><input type="radio" name="investment_duration" value="1-3 years"> 1-3 years</label><br>
+                <label><input type="radio" name="investment_duration" value="3-5 years"> 3-5 years</label><br>
+                <label><input type="radio" name="investment_duration" value="5-10 years"> 5-10 years</label><br>
+                <label><input type="radio" name="investment_duration" value="More than 10 years"> More than 10 years</label>
+            </div>
+        </div>
+
+        <div class="question">
+            <p>What is your target annual return on your investments?</p>
+            <div class="options">
+                <label><input type="radio" name="target_return" value="Below 5%"> Below 5%</label><br>
+                <label><input type="radio" name="target_return" value="5-10%"> 5-10%</label><br>
+                <label><input type="radio" name="target_return" value="10-15%"> 10-15%</label><br>
+                <label><input type="radio" name="target_return" value="Above 15%"> Above 15%</label><br>
+                <label><input type="radio" name="target_return" value="Above 20%"> Above 20%</label>
+            </div>
+        </div>
+
+    </div>
+</body>
+</html>
